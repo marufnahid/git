@@ -1,0 +1,71 @@
+//git initialization...
+git init
+
+//git status for status
+git status
+
+//git log
+git log
+git log --oneline // for one line
+
+//git add for stage
+git add --all //for all file and folder
+git add -A //for all file and folder
+git add . // for this folder only
+git add * //for all
+git add *.txt/*.js // for specific file format
+
+//git reset for delete
+git reset //only stage
+git reset --hard //with file
+
+//git rm txt.txt
+git rm txt.txt //simple delete
+git rm txt.txt -f //force ful delete
+git rm --cached txt.txt
+git rm -r myFolder //for recursive delete
+
+
+//git commit
+git commit -m "What you changed"
+
+
+//git brancing
+git branch //for show
+git branch anyName //for creating a branch
+
+for changing branch
+//
+git checkout BranchName
+
+
+//for marging one branch to another branch....
+
+git marge FromBranch -m "Message"
+
+
+//remote repo
+
+git push origin BranchName
+
+//git show changed on remote
+git fetch
+if i went to add changed in local also then
+git fetch
+git marge
+
+
+//git show changed on commad
+git pull
+
+
+
+
+
+
+
+
+
+
+
+
